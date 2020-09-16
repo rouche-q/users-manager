@@ -1,0 +1,29 @@
+{
+  "name": "um-api",
+  "version": "1.0.0",
+  "description": "ExpressJS / GraphQL API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --exec babel-node app.js",
+    "build": "babel app.js --out-dir build"
+  },
+  "author": "rouche-q",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "core-js": "^3.6.5",
+    "nodemon": "^2.0.4"
+  }
+}
